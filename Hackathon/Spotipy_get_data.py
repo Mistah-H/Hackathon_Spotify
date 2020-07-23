@@ -3,7 +3,7 @@ import csv
 import pandas as pd
 
 # Authentication
-token = spotipy.oauth2.SpotifyClientCredentials(client_id='84b0ad41faa94a7ca45d38c5c7cf9357', client_secret='0069277e2ece4290ac775bf9ff013173')
+token = spotipy.oauth2.SpotifyClientCredentials(client_id='ID', client_secret='client_secret')
 cache_token = token.get_access_token()
 spotify = spotipy.Spotify(cache_token)
 
